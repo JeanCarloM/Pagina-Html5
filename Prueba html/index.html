@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sitio WEB</title>
+		<!-- Stilos -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<!-- Iconos -->
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+		<!-- Slider -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  		<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<!-- Banner --> 
+			<div id="banner-wrapper">
+				<header>
+					<div class="header-inner">
+						<a href="index.html" id="logo">
+							<img src="img/pics/ipn.png">
+						</a>
+						<nav>
+							<a href="#" id="menu-icon">
+								<i class="fa fa-bars"></i>
+							</a>
+							<ul>
+								<li>
+									<a href="index.html" class="current">Inicio</a>
+								</li>
+								<li>
+									<a href="#skills">Propositos</a>
+								</li>
+								<li>
+									<a href="#portfolio">Informacion</a>
+								</li>
+								<li>
+									<a href="#services">Algo mas</a>
+								</li>
+								<li>
+									<a href="#contact">Creador</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</header>
+
+				<section class="slide-wrap">
+					<ul class="slider1">
+						<li>
+							<img src="img/slider/slider2.jpeg">
+						</li>
+						<li>
+							<img src="img/slider/slider5.jpeg">
+						</li>
+						<li>
+							<img src="img/slider/slider6.jpeg">
+						</li>
+					</ul>
+				</section>
+
+			</div>
+		</div>
+
+		<section class="one-third" id="skills">
+			<div class="icon-wrap">
+				<i class="fa fa-desktop"></i>
+			</div>
+			<h3>Titulo de Texto</h3>
+			<p>Prueba de texto</p>
+		</section>
+
+		<section class="one-third" id="skills">
+			<div class="icon-wrap">
+				<i class="fa fa-archive"></i>
+			</div>
+			<h3>Titulo de Texto 2</h3>
+			<p>Prueba de texto2 </p>
+		</section>
+
+		<section class="one-third" id="skills">
+			<div class="icon-wrap">
+				<i class="fa fa-ad"></i>
+			</div>
+			<h3>Titulo de Texto 3</h3>
+			<p>Prueba de texto 3</p>
+		</section>
+		<div class="clearfix-padding"></div>
+
+		<!--Portfolio/Informacion-->
+		<section class="left-col" id="portfolio">
+			<h3>Informacion</h3>
+			<p>Texto de prueba de no se cuantos textios van pero este es de "información" quiero ver si tiene acentos jaja</p>
+		</section>
+		<section class="sidebar">
+			<img src="img/pics/ipn.png">
+		</section>
+		<div class="clearfix-padding"></div>
+
+		<!-- "Servicios" --> <!-- Imagenes con texto debajo-->
+		<div class="one-third-two" id="services">
+			<h3>Nuestras Habilidades</h3>
+			<img src="img/pics/prueba1.png">
+			<p>Texto de prueba de imageness</p>
+		</div>
+
+		<div class="one-third-two" id="services">
+			<h3>Nuestras Habilidades Dos</h3>
+			<img src="img/pics/prueba1.png">
+			<p>Texto de prueba de imageness</p>
+		</div>
+
+		<div class="one-third-two" id="services">
+			<h3>Nuestras Habilidades Tres</h3>
+			<img src="img/pics/prueba1.png">
+			<p>Texto de prueba de imageness</p>
+		</div>
+
+		<!-- Secciones-->
+		<footer>
+			<div class="banner-wrapper">
+				<div class="icon-text">
+					<div class="icon-text-icon">
+						<ul class="footer-nav">
+							<li>
+								<a href="index.html">Inicio</a>
+							</li>
+							<li>
+								<a href="#skills">Habilidades</a>
+							</li>
+							<li>
+								<a href="#">Informacion</a>
+							</li>
+						</ul>
+					</div>
+
+					<!-- Iconos de contacto con referencias-->
+					<div class="icon-text-text">
+						<ul class="social">
+							<li>
+								<a href="mailto: Valeria@algo.com" target="_blank">
+									<i class="fa fa-envelope"></i>
+								</a>
+							</li>
+							<li>
+								<a href="https://facebook.com" target="_blank">
+									<i class="fa fa-id-card"></i>
+								</a>
+							</li>
+							<li>
+								<a href="https://twitter.com" target="_blank">
+									<i class="fa fa-hashtag"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!-- Creador-->
+		<footer class="footer-second">
+			<p>
+				&copy; Valeria
+			</p>
+		</footer>
+
+		<!-- Scrips-->
+		<script type="text/javascript">
+			$(document).ready(function function_name(argument) {
+				// body...
+				$('.slider1').bxSlider({
+					mode: 'fade'
+				})
+				$('.slider2').bxSlider({
+					mode: 'fade'
+				})
+				$('.slider3').bxSlider({
+					mode: 'fade'
+				})
+			})
+		</script>
+		
+	</body>
+</html>
